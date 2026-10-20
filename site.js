@@ -18,6 +18,7 @@
     { title: "Yessaya Mata Jeevapu Uta", href: "songs/yessaya mata jevapu uta.html", category: "worship" },
     { title: "Yesu Mayandhu Manamesu", href: "songs/yesu mayandhu manamesu.html", category: "worship" },
     { title: "Yesuloney Unadhi Nithya", href: "songs/yesuloney unadhi nithya.html", category: "worship" },
+    { title: "Sharonu Polamulo Pusina", href: "songs/sharonu polamulo pusina.html", category: "worship" },
     { title: "Kalyana Ragala", href: "songs/wedding songs/kalyana ragala.html", category: "wedding" },
     { title: "Kalyanam Kamaniyam", href: "songs/wedding songs/kalyanam kamaniyam.html", category: "wedding" },
     { title: "Madhuram E Shubha", href: "songs/wedding songs/madhuram e shubha.html", category: "wedding" },
@@ -26,7 +27,20 @@
     { title: "Na Priyuda Na Priya", href: "songs/wedding songs/na priyuda na priya.html", category: "wedding" },
     { title: "Nuthana Yerushalemu", href: "songs/wedding songs/nuthana yerushalemu .html", category: "wedding" },
     { title: "Sruti Kartha", href: "songs/wedding songs/sruti kartha.html", category: "wedding" },
-    { title: "Vivahamanadhi", href: "songs/wedding songs/vivahamanadhi.html", category: "wedding" }
+    { title: "Vivahamanadhi", href: "songs/wedding songs/vivahamanadhi.html", category: "wedding" },
+    { title: "Kalyaname Vybhogame", href: "songs/wedding songs/kalyaname vybhogame.html", category: "wedding" },
+    { title: "Edhi Devuni Nirnayamu", href: "songs/wedding songs/edhi devuni nirnayamu.html", category: "wedding" },
+    { title: "Devera Nee Devenalu", href: "songs/wedding songs/devara nee devenalu.html", category: "wedding" },
+    { title: "Manavula Melu Koraku", href: "songs/wedding songs/manavula melu koraku.html", category: "wedding" },
+    { title: "Devude Jathaparichina Janta", href: "songs/wedding songs/devude jathaparichina janta.html", category: "wedding" },
+    { title: "Edharokatiga Mareti Maduramaina", href: "songs/wedding songs/edharokatiga mareti.html", category: "wedding" },
+    { title: "Gunavathi Ayna Bharya", href: "songs/wedding songs/gunavathi ayna barya.html", category: "wedding" },
+    { title: "Kaliseti Andhala", href: "songs/wedding songs/kaliseti andhala.html", category: "wedding" },
+    { title: "O Sangama Sarvangama", href: "songs/wedding songs/o sangama sarvangama.html", category: "wedding" },
+    { title: "Paramuna Nirnayame", href: "songs/wedding songs/paramuna nirnayame.html", category: "wedding" },
+    { title: "Virisina Hrudayalaku", href: "songs/wedding songs/virisina hrudayalaku.html", category: "wedding" },
+    { title: "Rakshakuni Janma Sthalama", href: "songs/christimas songs/rakshakuni janma sthalama.html", category: "christmas" },
+    { title: "Siyonu Patalu Santhoshamuga", href: "songs/samadhi songs/siyonu patalu santhoshamuga.html", category: "samadhi" }
   ];
   const siteRoot = new URL(".", document.currentScript.src);
 
@@ -150,7 +164,7 @@
     const category = document.getElementById("categoryFilter")?.value || "all";
     const onlyFavorites = document.getElementById("favoritesOnly")?.getAttribute("aria-pressed") === "true";
     let count = 0;
-    for (const type of ["worship", "wedding"]) {
+    for (const type of ["worship", "wedding", "christmas", "samadhi"]) {
       const section = catalog.querySelector(`[data-category="${type}"]`);
       const grid = section?.querySelector(".cards");
       if (!section || !grid) continue;
