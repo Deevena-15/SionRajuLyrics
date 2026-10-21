@@ -3,7 +3,7 @@
 
   const songs = [
     { title: "Acharyakarudu Alochana Kartha", href: "songs/acharyakarudu alochana kartha .html", category: "worship" },
-    { title: "E Sthilo Unnanante", href: "songs/e sthilo unnanante.html", category: "worship" },
+    { title: "E Sthithilo Unnanante", href: "songs/e sthilo unnanante.html", category: "worship" },
     { title: "Entha Prema Murthivi", href: "songs/entha prema murhtivi .html", category: "worship" },
     { title: "Kanna Thandri", href: "songs/kannathandri.html", category: "worship" },
     { title: "Kannulu Musina", href: "songs/kannulu musina.html", category: "worship" },
@@ -40,7 +40,12 @@
     { title: "Paramuna Nirnayame", href: "songs/wedding songs/paramuna nirnayame.html", category: "wedding" },
     { title: "Virisina Hrudayalaku", href: "songs/wedding songs/virisina hrudayalaku.html", category: "wedding" },
     { title: "Rakshakuni Janma Sthalama", href: "songs/christimas songs/rakshakuni janma sthalama.html", category: "christmas" },
-    { title: "Siyonu Patalu Santhoshamuga", href: "songs/samadhi songs/siyonu patalu santhoshamuga.html", category: "samadhi" }
+    { title: "Siyonu Patalu Santhoshamuga", href: "songs/samadhi songs/siyonu patalu santhoshamuga.html", category: "samadhi" },
+    { title: "nuthana yerushalem dhigivachu", href: "songs/wedding songs/nuthana yerushalem.html", category: "wedding" },
+    { title: "yekkadekkado putti", href: "songs/wedding songs/yekkadekkado putti.html", category: "wedding" },
+    { title: "na jeevitha bagaswamivi neevu", href: "songs/wedding songs/na jeevitha bagaswanivi.html", category: "wedding" },
+    { title: "goreepilla varochavam", href: "songs/wedding songs/goreepilla varochaavam.html", category: "wedding" },
+  
   ];
   const siteRoot = new URL(".", document.currentScript.src);
 
