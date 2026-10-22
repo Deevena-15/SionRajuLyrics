@@ -44,7 +44,11 @@
     { title: "నూతన యెరుషలేమ్ దిగివచ్చుచున్నది", href: "songs/wedding songs/nuthana yerushalem dhigivachu.html", category: "wedding", aliases: ["Nuthana Yerushalem Dhigivachu", "Nuthana Yerushalem Dhigivachuchunadhi"] },
     { title: "ఎక్కడెక్కడో పుట్టి", href: "songs/wedding songs/yekkadekkado putti.html", category: "wedding", aliases: ["Yekkadekkado Putti"] },
     { title: "నా జీవిత భాగస్వామివి నీవు", href: "songs/wedding songs/na jeevitha bagaswamivi.html", category: "wedding", aliases: ["Na Jeevitha Bagaswamivi Neevu"] },
-    { title: "గొట్టెపిల్ల వివాహోత్సవ సమయంబు వచ్చెను", href: "songs/wedding songs/goreepilla varochaavam.html", category: "wedding", aliases: ["Goreepilla Varochaavam"] }
+    { title: "గొట్టెపిల్ల వివాహోత్సవ సమయంబు వచ్చెను", href: "songs/wedding songs/goreepilla varochaavam.html", category: "wedding", aliases: ["Goreepilla Varochaavam"] },
+    { title: "బలియైతవా నా యేసయ్యా", href: "songs/holycommunionsongs/baliayithiva na yessaya.html", category: "communion", aliases: ["Baliayithiva Na Yessaya"] },
+    { title: "నీ రక్తమే నీ రక్తమే", href: "songs/holycommunionsongs/ne rakthame ne rakthame.html", category: "communion", aliases: ["Ne Rakthame Ne Rakthame"] },
+    { title: "చాల చాల మంచివాడు నా యేసయ్య", href: "songs/sundayschoolsongs/chala chala manchivadu.html", category: "sunday-school", aliases: ["Chala Chala Manchivadu"] },
+    { title: "చిత్ర చిత్రాల వాడే మన యేసయ్య", href: "songs/sundayschoolsongs/chitra chitrala vade.html", category: "sunday-school", aliases: ["Chitra Chitrala Vade"] }
   ];
   const siteRoot = new URL(".", document.currentScript.src);
 
@@ -169,7 +173,7 @@
     const category = document.getElementById("categoryFilter")?.value || "all";
     const onlyFavorites = document.getElementById("favoritesOnly")?.getAttribute("aria-pressed") === "true";
     let count = 0;
-    for (const type of ["worship", "wedding", "christmas", "samadhi"]) {
+    for (const type of ["worship", "wedding", "christmas", "samadhi", "communion", "sunday-school"]) {
       const section = catalog.querySelector(`[data-category="${type}"]`);
       const grid = section?.querySelector(".cards");
       if (!section || !grid) continue;
