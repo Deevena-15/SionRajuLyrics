@@ -2,50 +2,49 @@
   "use strict";
 
   const songs = [
-    { title: "Acharyakarudu Alochana Kartha", href: "songs/acharyakarudu alochana kartha .html", category: "worship" },
-    { title: "E Sthithilo Unnanante", href: "songs/e sthilo unnanante.html", category: "worship" },
-    { title: "Entha Prema Murthivi", href: "songs/entha prema murhtivi .html", category: "worship" },
-    { title: "Kanna Thandri", href: "songs/kannathandri.html", category: "worship" },
-    { title: "Kannulu Musina", href: "songs/kannulu musina.html", category: "worship" },
-    { title: "Konda Kota Neeve", href: "songs/konda kota neeve.html", category: "worship" },
-    { title: "Mounamuga Undake Manasa", href: "songs/mounamuga undake manasa.html", category: "worship" },
-    { title: "Nedorepona", href: "songs/nedorepona.html", category: "worship" },
-    { title: "Nee Vakyamenanu", href: "songs/nee vakyamenanu.html", category: "worship" },
-    { title: "Neshedinchabadinadhi", href: "songs/neshedinchabadinadhi.html", category: "worship" },
-    { title: "Prabhu Dhayaludu", href: "songs/prabhu dhayaludu.html", category: "worship" },
-    { title: "Shothramu Suthi Chelinthunu", href: "songs/shothramu suthi chelinthunu.html", category: "worship" },
-    { title: "Sthuthiyinthu Nee Namamu", href: "songs/sthuthiyinthu nee namamu.html", category: "worship" },
-    { title: "Yessaya Mata Jeevapu Uta", href: "songs/yessaya mata jevapu uta.html", category: "worship" },
-    { title: "Yesu Mayandhu Manamesu", href: "songs/yesu mayandhu manamesu.html", category: "worship" },
-    { title: "Yesuloney Unadhi Nithya", href: "songs/yesuloney unadhi nithya.html", category: "worship" },
-    { title: "Sharonu Polamulo Pusina", href: "songs/sharonu polamulo pusina.html", category: "worship" },
-    { title: "Kalyana Ragala", href: "songs/wedding songs/kalyana ragala.html", category: "wedding" },
-    { title: "Kalyanam Kamaniyam", href: "songs/wedding songs/kalyanam kamaniyam.html", category: "wedding" },
-    { title: "Madhuram E Shubha", href: "songs/wedding songs/madhuram e shubha.html", category: "wedding" },
-    { title: "Mangalame Yesunaku", href: "songs/wedding songs/mangalame yesunaku.html", category: "wedding" },
-    { title: "Na Bagaswamini", href: "songs/wedding songs/Na bagaswamini.html", category: "wedding" },
-    { title: "Na Priyuda Na Priya", href: "songs/wedding songs/na priyuda na priya.html", category: "wedding" },
-    { title: "Nuthana Yerushalemu", href: "songs/wedding songs/nuthana yerushalemu .html", category: "wedding" },
-    { title: "Sruti Kartha", href: "songs/wedding songs/sruti kartha.html", category: "wedding" },
-    { title: "Vivahamanadhi", href: "songs/wedding songs/vivahamanadhi.html", category: "wedding" },
-    { title: "Kalyaname Vybhogame", href: "songs/wedding songs/kalyaname vybhogame.html", category: "wedding" },
-    { title: "Edhi Devuni Nirnayamu", href: "songs/wedding songs/edhi devuni nirnayamu.html", category: "wedding" },
-    { title: "Devera Nee Devenalu", href: "songs/wedding songs/devara nee devenalu.html", category: "wedding" },
-    { title: "Manavula Melu Koraku", href: "songs/wedding songs/manavula melu koraku.html", category: "wedding" },
-    { title: "Devude Jathaparichina Janta", href: "songs/wedding songs/devude jathaparichina janta.html", category: "wedding" },
-    { title: "Edharokatiga Mareti Maduramaina", href: "songs/wedding songs/edharokatiga mareti.html", category: "wedding" },
-    { title: "Gunavathi Ayna Bharya", href: "songs/wedding songs/gunavathi ayna barya.html", category: "wedding" },
-    { title: "Kaliseti Andhala", href: "songs/wedding songs/kaliseti andhala.html", category: "wedding" },
-    { title: "O Sangama Sarvangama", href: "songs/wedding songs/o sangama sarvangama.html", category: "wedding" },
-    { title: "Paramuna Nirnayame", href: "songs/wedding songs/paramuna nirnayame.html", category: "wedding" },
-    { title: "Virisina Hrudayalaku", href: "songs/wedding songs/virisina hrudayalaku.html", category: "wedding" },
-    { title: "Rakshakuni Janma Sthalama", href: "songs/christimas songs/rakshakuni janma sthalama.html", category: "christmas" },
-    { title: "Siyonu Patalu Santhoshamuga", href: "songs/samadhi songs/siyonu patalu santhoshamuga.html", category: "samadhi" },
-    { title: "nuthana yerushalem dhigivachu", href: "songs/wedding songs/nuthana yerushalem.html", category: "wedding" },
-    { title: "yekkadekkado putti", href: "songs/wedding songs/yekkadekkado putti.html", category: "wedding" },
-    { title: "na jeevitha bagaswamivi neevu", href: "songs/wedding songs/na jeevitha bagaswanivi.html", category: "wedding" },
-    { title: "goreepilla varochavam", href: "songs/wedding songs/goreepilla varochaavam.html", category: "wedding" },
-  
+    { title: "ఆశ్చర్యకరుడు ఆలోచనకర్త", href: "songs/acharyakarudu alochana kartha .html", category: "worship", aliases: ["Acharyakarudu Alochana Kartha", "Acharyakarudu Alochanakartha"] },
+    { title: "ఈ స్థితిలో ఉన్నానంటే", href: "songs/e sthithilo unnanante.html", category: "worship", aliases: ["E Sthithilo Unnanante", "E Sthilo Unnanante"] },
+    { title: "ఎంత ప్రేమమూర్తివి యేసయ్య", href: "songs/entha prema murhtivi .html", category: "worship", aliases: ["Entha Prema Murthivi", "Entha Prema Murthivi Yessaya"] },
+    { title: "కన్న తండ్రి ఆదరించినట్లుగా", href: "songs/kannathandri.html", category: "worship", aliases: ["Kanna Thandri", "Kanna Thandri Adharinchinatuga"] },
+    { title: "కనులు మూసిన కనులు తెరిచినా", href: "songs/kannulu musina.html", category: "worship", aliases: ["Kannulu Musina", "Kanulu Musina Kanulu Therichina"] },
+    { title: "నా కొండ కోట నీవే", href: "songs/konda kota neeve.html", category: "worship", aliases: ["Konda Kota Neeve"] },
+    { title: "మౌనముగా ఉండకే ఓ మనసా", href: "songs/mounamuga undake manasa.html", category: "worship", aliases: ["Mounamuga Undake Manasa"] },
+    { title: "నేడో రేపో నా ప్రియుడేసు", href: "songs/nedorepona.html", category: "worship", aliases: ["Nedorepona", "NedoRepo Na Priyudesu"] },
+    { title: "నీ వాక్యమే నన్ను బ్రతికించెను", href: "songs/nee vakyamenanu.html", category: "worship", aliases: ["Nee Vakyamenanu", "Nee Vakyame Nanu Brathikinchennu"] },
+    { title: "నిషేదించబడినది రాయి", href: "songs/neshedinchabadinadhi.html", category: "worship", aliases: ["Neshedinchabadinadhi", "Nishedhinchabadinadhi Rayii"] },
+    { title: "ప్రభు దయాళుడు", href: "songs/prabhu dhayaludu.html", category: "worship", aliases: ["Prabhu Dhayaludu"] },
+    { title: "స్తోత్రము స్తుతి చెల్లింతుము", href: "songs/shothramu suthi chelinthunu.html", category: "worship", aliases: ["Shothramu Suthi Chelinthunu", "Sthothramu Suthi Chelinthunu"] },
+    { title: "స్తుతియింతు నీ నామము", href: "songs/sthuthiyinthu nee namamu.html", category: "worship", aliases: ["Sthuthiyinthu Nee Namamu"] },
+    { title: "యేసయ్య మాట జీవపు ఊట", href: "songs/yessaya mata jevapu uta.html", category: "worship", aliases: ["Yessaya Mata Jeevapu Uta", "Yessaya Mata Jeevapu Oota"] },
+    { title: "యేసు మనయందు మనమే యేసు నందు", href: "songs/yesu mayandhu manamesu.html", category: "worship", aliases: ["Yesu Mayandhu Manamesu", "Yesu Manayandhu Manamesu Nandhu"] },
+    { title: "యేసులోనే ఉన్నది నిత్యజీవము", href: "songs/yesuloney unadhi nithya.html", category: "worship", aliases: ["Yesuloney Unadhi Nithya"] },
+    { title: "షారోను పొలములో పూసిన", href: "songs/sharonu polamulo pusina.html", category: "worship", aliases: ["Sharonu Polamulo Pusina"] },
+    { title: "కళ్యాణ రాగాల సందడిలో", href: "songs/wedding songs/kalyana ragala.html", category: "wedding", aliases: ["Kalyana Ragala", "Kalyana Ragala Sandhadilo"] },
+    { title: "కళ్యాణం కమనీయం", href: "songs/wedding songs/kalyanam kamaniyam.html", category: "wedding", aliases: ["Kalyanam Kamaniyam"] },
+    { title: "మధురం ఈ శుభ సమయం", href: "songs/wedding songs/madhuram e shubha.html", category: "wedding", aliases: ["Madhuram E Shubha", "Madhuram E Shubha Samayam"] },
+    { title: "మంగళమే యేసునకు", href: "songs/wedding songs/mangalame yesunaku.html", category: "wedding", aliases: ["Mangalame Yesunaku"] },
+    { title: "నా భాగస్వామిని", href: "songs/wedding songs/Na bagaswamini.html", category: "wedding", aliases: ["Na Bagaswamini"] },
+    { title: "నా ప్రియుడా నా ప్రియ యేసు", href: "songs/wedding songs/na priyuda na priya.html", category: "wedding", aliases: ["Na Priyuda Na Priya", "Na Priyuda Na Priy Yesu"] },
+    { title: "నూతన యెరూషలేము", href: "songs/wedding songs/nuthana yerushalemu .html", category: "wedding", aliases: ["Nuthana Yerushalemu"] },
+    { title: "సృష్టి కర్తా యేసు దేవా", href: "songs/wedding songs/sruti kartha.html", category: "wedding", aliases: ["Sruti Kartha", "Sruti Kartha Yesu"] },
+    { title: "వివాహమన్నది పవిత్రమైనది", href: "songs/wedding songs/vivahamanadhi.html", category: "wedding", aliases: ["Vivahamanadhi", "Vivahamannadhi Pavithramainadhi"] },
+    { title: "కళ్యాణమే వైభోగమే", href: "songs/wedding songs/kalyaname vybhogame.html", category: "wedding", aliases: ["Kalyaname Vybhogame"] },
+    { title: "ఇది దేవుని నిర్ణయము", href: "songs/wedding songs/edhi devuni nirnayamu.html", category: "wedding", aliases: ["Edhi Devuni Nirnayamu"] },
+    { title: "దేవర నీ దీవెనెలు", href: "songs/wedding songs/devara nee devenalu.html", category: "wedding", aliases: ["Devera Nee Devenalu"] },
+    { title: "మానవుల మేలు కొరకు", href: "songs/wedding songs/manavula melu koraku.html", category: "wedding", aliases: ["Manavula Melu Koraku"] },
+    { title: "దేవుడే జతపరచిన జంట", href: "songs/wedding songs/devude jathaparichina janta.html", category: "wedding", aliases: ["Devude Jathaparichina Janta"] },
+    { title: "ఇద్దరొక్కటిగా మారేటి మధురమైన క్షణము", href: "songs/wedding songs/edharokatiga mareti.html", category: "wedding", aliases: ["Edharokatiga Mareti Maduramaina"] },
+    { title: "గుణవతి అయిన భార్య", href: "songs/wedding songs/gunavathi ayna barya.html", category: "wedding", aliases: ["Gunavathi Ayna Bharya"] },
+    { title: "కలిసేటి అందాల అనుబంధమే", href: "songs/wedding songs/kaliseti andhala.html", category: "wedding", aliases: ["Kaliseti Andhala"] },
+    { title: "ఓ సంఘమా సర్వాంగమా", href: "songs/wedding songs/o sangama sarvangama.html", category: "wedding", aliases: ["O Sangama Sarvangama"] },
+    { title: "పరమున నిర్ణయమే", href: "songs/wedding songs/paramuna nirnayame.html", category: "wedding", aliases: ["Paramuna Nirnayame"] },
+    { title: "విరిసిన హృదయాలకు", href: "songs/wedding songs/virisina hrudayalaku.html", category: "wedding", aliases: ["Virisina Hrudayalaku"] },
+    { title: "రక్షకుని జన్మస్థలమా", href: "songs/christimas songs/rakshakuni janma sthalama.html", category: "christmas", aliases: ["Rakshakuni Janma Sthalama"] },
+    { title: "సీయోను పాటలు సంతోషముగా", href: "songs/samadhi songs/siyonu patalu santhoshamuga.html", category: "samadhi", aliases: ["Siyonu Patalu Santhoshamuga"] },
+    { title: "నూతన యెరుషలేమ్ దిగివచ్చుచున్నది", href: "songs/wedding songs/nuthana yerushalem dhigivachu.html", category: "wedding", aliases: ["Nuthana Yerushalem Dhigivachu", "Nuthana Yerushalem Dhigivachuchunadhi"] },
+    { title: "ఎక్కడెక్కడో పుట్టి", href: "songs/wedding songs/yekkadekkado putti.html", category: "wedding", aliases: ["Yekkadekkado Putti"] },
+    { title: "నా జీవిత భాగస్వామివి నీవు", href: "songs/wedding songs/na jeevitha bagaswamivi.html", category: "wedding", aliases: ["Na Jeevitha Bagaswamivi Neevu"] },
+    { title: "గొట్టెపిల్ల వివాహోత్సవ సమయంబు వచ్చెను", href: "songs/wedding songs/goreepilla varochaavam.html", category: "wedding", aliases: ["Goreepilla Varochaavam"] }
   ];
   const siteRoot = new URL(".", document.currentScript.src);
 
@@ -61,6 +60,7 @@
   };
   const keys = { theme: "sionRajuLyrics.theme", favorites: "sionRajuLyrics.favorites", recent: "sionRajuLyrics.recent" };
   const resolveHref = song => new URL(song.href, siteRoot).href;
+  const normalizeSearch = value => String(value).normalize("NFKC").toLocaleLowerCase().replace(/[\p{P}\p{S}\p{Z}\s]+/gu, "");
   const normalizedPath = value => {
     try { return decodeURIComponent(new URL(value, siteRoot).pathname).replace(/\\/g, "/").toLocaleLowerCase(); }
     catch (_) { return String(value).toLocaleLowerCase(); }
@@ -165,7 +165,7 @@
   function renderCatalog() {
     const catalog = document.getElementById("songCatalog");
     if (!catalog) return;
-    const query = (document.getElementById("songSearch")?.value || "").trim().toLocaleLowerCase();
+    const query = normalizeSearch(document.getElementById("songSearch")?.value || "");
     const category = document.getElementById("categoryFilter")?.value || "all";
     const onlyFavorites = document.getElementById("favoritesOnly")?.getAttribute("aria-pressed") === "true";
     let count = 0;
@@ -174,7 +174,7 @@
       const grid = section?.querySelector(".cards");
       if (!section || !grid) continue;
       grid.replaceChildren();
-      const matched = songs.filter(song => song.category === type && song.title.toLocaleLowerCase().includes(query) && (category === "all" || category === type) && (!onlyFavorites || favorites.has(song.href)));
+      const matched = songs.filter(song => song.category === type && (!query || [song.title, ...(song.aliases || [])].some(value => normalizeSearch(value).includes(query))) && (category === "all" || category === type) && (!onlyFavorites || favorites.has(song.href)));
       matched.forEach(song => grid.append(createCard(song)));
       section.classList.toggle("hidden", matched.length === 0);
       count += matched.length;
